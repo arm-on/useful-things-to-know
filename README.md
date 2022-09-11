@@ -2,6 +2,7 @@
 
 # How to make a Python package to use with pip
 
+0. Make an account at [TestPyPi](https://test.pypi.org/), and get an API Token [here](https://test.pypi.org/manage/account/token/)
 1. Download the initial project files ([python-package-initial.zip](https://github.com/arm-on/useful-things-to-know/blob/main/pip-package-initial.zip)), and unzip the folder
 2. Install "twine": Run `python3 -m pip install --upgrade twine`
 3. Change the terminal's current directory to where the `pyproject.toml` exists
